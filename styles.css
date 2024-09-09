@@ -1,0 +1,19 @@
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden; /* Para contener los floats */
+}
+
+.column {
+    float: left;
+    width: 33.33%; /* 3 columnas */
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc; /* Borde para visualizar columnas */
+}
+.column h2 {
+    text-align: center; /* Centrar el título de la película */
+}
+.clear {
+    clear: both; /* Asegura que el siguiente elemento no flote al lado */
+}
